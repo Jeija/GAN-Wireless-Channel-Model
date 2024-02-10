@@ -22,7 +22,7 @@ We let it generate CSI data a the test set locations:
 
 GAN-generated (fixed noise) | GAN-generated (random noise)
 :-:|:-:
-<img src="img/ds_gan_fixednoise.png" width=300> | <img src="img/ds_gan_randomnoise.png" width=300>
+<img src="img/ds_gan_fixednoise_animation.gif" width=300> | <img src="img/ds_gan_randomnoise.png" width=300>
 
 The GAN's generator gets a noise vector as its input.
 We can either fixate this noise vector over all positions (conditions) to get some level of spatial consistency (left diagram), or just provide a random noise sample for every location (right diagram).
